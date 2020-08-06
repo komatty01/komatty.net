@@ -7,7 +7,6 @@ body {
 	padding: 0;
 	font-family: 'Lato', 'Avenir', 'Helvetica', 'Arial', sans-serif;
 }
-
 div {
 	width: 75%;
 	margin: 5em auto;
@@ -15,17 +14,14 @@ div {
 	background-color: #ffffff;
 	border-radius: 0.25em;
 }
-
 a:link, a:visited {
 	color: #000000;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #004e98;
 	text-decoration: none;
 }
-
 .linetitle {
 	border-bottom: 2px solid #c0c6c9;
 	text-align: left;
@@ -40,7 +36,6 @@ a:hover {
 audio {
 	width: 85%;
 }
-
 video {
 	width: 85%;
 }
