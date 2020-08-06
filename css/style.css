@@ -129,16 +129,7 @@ input[type=submit] {
 	border: none;
 	border-radius: 0.25em;
 	cursor: pointer;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
 }
 input[type=submit]:hover {
 	background-color: #223a70;
-}
-.container {
-	border-radius: 0.25em;
-	background-color: #f2f2f2;
-	padding: 20px;
 }
