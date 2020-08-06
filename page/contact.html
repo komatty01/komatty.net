@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174694603-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-174694603-1');
+  </script>
+  <title>Contact | www.komatty.net</title>
+  <meta name="description" content="Contact Form.">
+	<link rel="icon" href="../image/favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div>
+        <h1>Contact</h1>
+        <h2 class="linetitle">Message Form</h2>
+        <script type="text/javascript">
+          var submitted = false;
+          var currentURL = window.location.href;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thanks.html';}"></iframe>
+        <form class="p-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcoAy1EdV-FW7WtAy1fiWPuVZ4mbZKhGJzcaNZbJomWpCvzA/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+          <div class="p-formGroup u-mb20">
+            <label for="userName">Name</label>
+              <input type="text" id="userName" name="entry.462841448" placeholder="Your Name" required>
+          </div>
+          <div class="p-formGroup u-mb20">
+            <label for="email">Email</label>
+              <input type="email" id="email" name="entry.199094172" placeholder="yourname@example.com" required>
+          </div>
+          <div class="p-formGroup u-mb20">
+            <label for="content">Message</label>
+              <textarea id="content" name="entry.1758569609" style="height:200px" placeholder="Please type your message." required></textarea>
+          </div>
+          <div class="p-form__btn">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+        <p><input type="button" value="return to the homepage" onclick="history.back()"></p>
+	</div>
+</body>
+</html>
