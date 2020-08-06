@@ -121,6 +121,7 @@ input[type=email], select, textarea {
 	resize: vertical;
 }
 input[type=submit] {
+	font: 1em sans-serif;
 	background-color: #223a70d5;
 	width: 100%;
 	color: white;
