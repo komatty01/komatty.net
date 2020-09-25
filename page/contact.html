@@ -25,15 +25,18 @@
         </script>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thanks.html';}"></iframe>
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcoAy1EdV-FW7WtAy1fiWPuVZ4mbZKhGJzcaNZbJomWpCvzA/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
-          <label for="userName">Name</label>
+            <label for="userName">Name</label>
             <input type="text" id="userName" name="entry.462841448" placeholder="Your Name" required>
-          <label for="email">Email</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="entry.199094172" placeholder="yourname@example.com" required>
-          <label for="content">Message</label>
+            <label for="content">Message</label>
             <textarea id="content" name="entry.1758569609" style="height:200px" placeholder="Please type your message." required></textarea>
-	  <label for="noRobot">I'm not a robot.</label>
-	    <img src="/image/noRobot.jpg" >
-            <input type="text" id="noRobot" name="entry.721895254" placeholder="enter what you can see" required>
+            <label for="noRobot">I'm not a robot.</label>
+            <details>
+                <summary>Enter this text (Click to open).</summary>
+                <img src="/images/noRobot.jpg">
+            </details>
+            <input type="text" id="noRobot" name="entry.721895254" required>
           <input type="submit" value="Submit">
         </form>
         <p><input type="button" value="return to the homepage" onclick="history.back()"></p>
