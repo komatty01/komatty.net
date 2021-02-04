@@ -9,7 +9,7 @@ body {
 }
 div {
 	width: 75%;
-	margin: 5em auto;
+	margin: 5em auto 2.5em;
 	padding: 30px;
 	background-color: #ffffff;
 	border-radius: 0.25em;
