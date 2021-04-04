@@ -118,7 +118,7 @@ input[type=reset] {
     padding: 0.5em 1em;
     border: 1px solid #c0c6c9;
     border-radius: 0.25em;
-    margin: 0.5em auto;
+    margin: 0.5em 1em 0.5em 0;
 }
 input[type=reset]:hover {
     background-color: #c0c6c9;
@@ -130,7 +130,7 @@ input[type=submit] {
     padding: 0.5em 1em;
     border: 1px solid #164a84;
     border-radius: 0.25em;
-    margin: 0.5em auto;
+    margin: 0.5em 1em 0.5em 0;
     cursor: pointer;
 }
 input[type=submit]:hover {
@@ -150,6 +150,7 @@ input[type=button]:hover {
 @media screen and (max-width: 600px) {
     input[type=reset], input[type=submit] {
         width: 49.375%;
+        margin: 0.5em auto;
     }
     input[type=button] {
         width: 100%;
