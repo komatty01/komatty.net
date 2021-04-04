@@ -100,8 +100,7 @@ input[type=text], select, textarea {
     border: 1px solid #c0c6c9;
     border-radius: 0.25em;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin: 6px auto 16px;
     resize: vertical;
 }
 input[type=email], select, textarea {
@@ -111,37 +110,52 @@ input[type=email], select, textarea {
     border: 1px solid #c0c6c9;
     border-radius: 0.25em;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin: 6px auto 16px;
     resize: vertical;
+}
+input[type=reset] {
+    font: 1em 'Manrope', sans-serif;
+    padding: 0.5em 1em;
+    border: 1px solid #c0c6c9;
+    border-radius: 0.25em;
+    margin: 0.5em 0.5em 0.5em 0em;
+}
+input[type=reset]:hover {
+    background-color: #c0c6c9;
 }
 input[type=submit] {
     font: 1em 'Manrope', sans-serif;
-    width: 100%;
     background-color: #164984bd;
     color: white;
-    padding: 12px 20px;
-    border: none;
+    padding: 0.5em 1em;
+    border: 1px solid #164a84;
     border-radius: 0.25em;
-    cursor: poManrope;
+    margin: 0.5em;
+    cursor: pointer;
 }
 input[type=submit]:hover {
     background-color: #164a84;
 }
-
 input[type=button] {
     font: 1em 'Manrope', sans-serif;
-    width: 100%;
-    padding: 12px 20px;
-    border: 1px solid #dce2e6;
+    padding: 0.5em 1em;
+    border: 1px solid #c0c6c9;
     border-radius: 0.25em;
-    cursor: poManrope;
+    cursor: pointer;
 }
 input[type=button]:hover {
     background-color: #c0c6c9;
 }
-
+@media screen and (max-width: 600px) {
+    input[type=reset], input[type=submit] {
+        width: 49.4375%;
+        margin: auto;
+    }
+    input[type=button] {
+        width: 100%;
+    }
+}
 .copyright {
     text-align: center;
-    color: #f0f0f0;
+    color: #ffffff;
 }
