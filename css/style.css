@@ -118,7 +118,7 @@ input[type=reset] {
     padding: 0.5em 1em;
     border: 1px solid #c0c6c9;
     border-radius: 0.25em;
-    margin: 0.5em 0.5em 0.5em 0em;
+    margin: 0.5em auto;
 }
 input[type=reset]:hover {
     background-color: #c0c6c9;
@@ -130,7 +130,7 @@ input[type=submit] {
     padding: 0.5em 1em;
     border: 1px solid #164a84;
     border-radius: 0.25em;
-    margin: 0.5em;
+    margin: 0.5em auto;
     cursor: pointer;
 }
 input[type=submit]:hover {
@@ -141,6 +141,7 @@ input[type=button] {
     padding: 0.5em 1em;
     border: 1px solid #c0c6c9;
     border-radius: 0.25em;
+    margin: 0.5em auto;
     cursor: pointer;
 }
 input[type=button]:hover {
@@ -148,14 +149,14 @@ input[type=button]:hover {
 }
 @media screen and (max-width: 600px) {
     input[type=reset], input[type=submit] {
-        width: 49.4375%;
-        margin: auto;
+        width: 49.375%;
     }
     input[type=button] {
         width: 100%;
         margin: auto;
     }
 }
+
 .copyright {
     text-align: center;
     color: #ffffff;
