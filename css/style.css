@@ -139,7 +139,7 @@ input[type=button]:hover {
 }
 @media screen and (max-width: 600px) {
     input[type=submit] {
-        width: 100%;
+        width: 200%;
         margin: 0.5em auto;
     }
     input[type=button] {
