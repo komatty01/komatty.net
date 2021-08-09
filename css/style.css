@@ -113,16 +113,6 @@ input[type=email], select, textarea {
     margin: 6px auto 16px;
     resize: vertical;
 }
-input[type=reset] {
-    font: 1em 'Manrope', sans-serif;
-    padding: 0.5em 1em;
-    border: 1px solid #c0c6c9;
-    border-radius: 0.25em;
-    margin: 0.5em 1em 0.5em 0;
-}
-input[type=reset]:hover {
-    background-color: #c0c6c9;
-}
 input[type=submit] {
     font: 1em 'Manrope', sans-serif;
     background-color: #164984bd;
@@ -148,8 +138,8 @@ input[type=button]:hover {
     background-color: #c0c6c9;
 }
 @media screen and (max-width: 600px) {
-    input[type=reset], input[type=submit] {
-        width: 49.375%;
+    input[type=submit] {
+        width: 100%;
         margin: 0.5em auto;
     }
     input[type=button] {
