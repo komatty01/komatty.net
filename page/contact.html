@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contact | www.komatty.net</title>
+    <meta name="description" content="Contact Komatty.">
+    <link rel="icon" href="/image/favicon.ico">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="global-navbar">
+        <div class="global-navbar-logo"><a href="/">Komatty</a></div>
+        <ul class="global-navlinks">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="global-navbar-hamburger">&#9776;</label>
+            <div class="global-navbar-menu">
+                <li><a href="/page/about.html">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/page/contact.html">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="paper">
+        <h1 class="linetitle">Contact</h1>
+        <h2 class="linetitle">Message Form</h2>
+        <script type="text/javascript">
+            var submitted = false;
+            var currentURL = window.location.href;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+            onload="if(submitted) {window.location='./thanks.html';}"></iframe>
+        <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcoAy1EdV-FW7WtAy1fiWPuVZ4mbZKhGJzcaNZbJomWpCvzA/formResponse"
+            target="hidden_iframe" onsubmit="submitted=true;">
+            <label for="userName">Name</label>
+            <input type="text" id="userName" name="entry.462841448" placeholder="Your Name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="entry.199094172" placeholder="yourname@example.com" required>
+            <label for="content">Message</label>
+            <textarea id="content" name="entry.1758569609" style="height:200px" placeholder="Please type your message."
+                required></textarea>
+            <label for="noRobot">I'm not a robot.</label>
+            <details>
+                <summary>Please enter this code (Click to open).</summary>
+                <img src="/image/noRobot.png" width="275px">
+            </details>
+            <input type="text" id="noRobot" name="entry.721895254" required>
+            <input type="submit" value="Submit">
+        </form>
+        <input type="button" value="Back" onclick="history.back()">
+    </div>
+    </div>
+    <footer class="copyright">Copyright&nbsp;&copy;&nbsp;<span id="year"></span>&nbsp;www.komatty.net</footer>
+    <script type="text/javascript" src="/script/script.js"></script>
+</body>
+</html>
